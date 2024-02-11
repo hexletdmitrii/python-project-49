@@ -1,3 +1,7 @@
+brain-gcd:
+	poetry run brain-gcd
+
+
 install:
 	poetry install
 

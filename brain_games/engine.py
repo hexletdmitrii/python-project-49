@@ -1,6 +1,7 @@
 from brain_games.cli import welcome_user
 from brain_games.games.calc import calc
 from brain_games.games.even import even
+from brain_games.games.gcd import find_gcd
 
 
 def engine(game, text):
@@ -14,6 +15,8 @@ def engine(game, text):
                 (question, contr) = calc()
             case 'even':
                 (question, contr) = even()
+            case 'gcd':
+                (question, contr) = find_gcd()
         print(f'Question: {question}')
         ans = input('Your answer: ')
         if ans.lower() != contr:
