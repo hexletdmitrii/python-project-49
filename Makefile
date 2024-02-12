@@ -1,3 +1,7 @@
+brain-progression:
+	poetry run brain-progression
+
+
 brain-gcd:
 	poetry run brain-gcd
 
