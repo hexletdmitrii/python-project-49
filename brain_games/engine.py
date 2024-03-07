@@ -3,6 +3,7 @@ from brain_games.games.calc import calc
 from brain_games.games.even import even
 from brain_games.games.gcd import find_gcd
 from brain_games.games.progression import progres
+from brain_games.games.prime import prime
 
 
 def engine(game, text):
@@ -20,6 +21,8 @@ def engine(game, text):
                 (question, contr) = find_gcd()
             case 'progression':
                 (question, contr) = progres()
+            case 'prime':
+                (question, contr) = prime()
         print(f'Question: {question}')
         ans = input('Your answer: ')
         if ans.lower() != contr:
