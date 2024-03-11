@@ -1,7 +1,7 @@
 /.venv/
-/brain_games/__pycache_/
-/brain_games/games/__pycache_/
-/brain_games/scripts/__pycache_/
+/brain_games/__pycache__/
+/brain_games/games/__pycache__/
+/brain_games/scripts/__pycache__/
 /dist/
 
 
