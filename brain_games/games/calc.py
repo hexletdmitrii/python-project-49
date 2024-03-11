@@ -15,5 +15,5 @@ def calc():
         case "-":
             num2 = randint(1, num1)
             contr = num1 - num2
-    question = str(num1) + str(operator) + str(num2)
+    question = str(num1) + ' ' + str(operator) + ' ' + str(num2)
     return question, str(contr)
