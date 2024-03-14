@@ -1,6 +1,5 @@
 /.venv/
-__pycache__/
+*pycache*/
 dist/
-/brain_games/games/__pycache__
 
 
