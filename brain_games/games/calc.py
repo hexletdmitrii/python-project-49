@@ -2,7 +2,10 @@ from random import randint
 from random import choice
 
 
-def calc():
+DESCRIPTION = 'What is the result of the expression?'
+
+
+def generate_game():
     num1 = randint(1, 99)
     operator = choice(['*', '+', '-'])
     match operator:

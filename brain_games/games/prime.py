@@ -1,7 +1,11 @@
 from random import choice
 
 
-def prime():
+DESCRIPTION = '''Answer "yes" if given number is \
+prime. Otherwise answer "no".'''
+
+
+def generate_game():
     prime_list = [2]
     no_prime_list = []
     for prime_number in range(3, 150):

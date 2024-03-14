@@ -1,7 +1,10 @@
 from random import randint
 
 
-def progres():
+DESCRIPTION = 'What number is missing in the progression?'
+
+
+def generate_game():
     leng_progres = randint(5, 12)
     first_number = randint(1, 10)
     step_num = randint(2, 8)

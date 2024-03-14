@@ -1,7 +1,10 @@
 from random import randint
 
 
-def even():
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
+
+
+def generate_game():
     random_num = randint(1, 99)
     if random_num % 2 == 0:
         contr = 'yes'
